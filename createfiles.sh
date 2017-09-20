@@ -9,7 +9,7 @@
 
 mkdir tmpfiles
 cd tmpfiles
-for i in {1..100..1}
+for i in {1..100..1}        ### Try {001..100} to auto-pad the numbers with zeroes
 do
 if [ $i -lt 10 ]
 then
